@@ -5,9 +5,12 @@ class Hash
     # binding.pry
     array = []
     self.each do |k, v|
-      if v == arguments
-        array.push(k)
+      arguments.each do |loc|
+
       end
+      # if v == arguments
+      #   array.push(k)
+      # end
     end
     array
   end
