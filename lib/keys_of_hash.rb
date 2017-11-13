@@ -6,7 +6,11 @@ class Hash
     array = []
     self.each do |k, v|
       if v == arguments
-        array.push(k)
+        arguments.each do |loc|
+          if v == loc
+
+          end
+        end
       end
     end
     array
