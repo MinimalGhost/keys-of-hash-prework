@@ -10,9 +10,6 @@ class Hash
           array.push(k)
         end
       end
-      # if v == arguments
-      #   array.push(k)
-      # end
     end
     array
   end
